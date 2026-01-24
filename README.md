@@ -56,13 +56,19 @@ A premium real-time collaborative IDE where developers solve algorithmic challen
 ## 🎥 Demo
 
 ### Landing Page
-![Landing Page](https://via.placeholder.com/800x450/0f172a/00d9ff?text=AlgoArena+Landing+Page)
+![Landing Page](./screenshots/hero.png)
 
-### Collaborative Editor
-![Coding Room](https://via.placeholder.com/800x450/0f172a/00d9ff?text=Real-Time+Coding+Session)
+### Key Features
+![Features](./screenshots/features.png)
 
-### User Profile
-![Profile Modal](https://via.placeholder.com/800x450/0f172a/00d9ff?text=Developer+Profile)
+### Flexible Pricing
+![Pricing](./screenshots/pricing.png)
+
+### Community Integration
+![Community](./screenshots/community.png)
+
+### Secure Authentication
+![Login](./screenshots/login.png)
 
 > **Try it live:** [http://localhost:5173](http://localhost:5173) (after installation)
 
