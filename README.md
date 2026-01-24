@@ -55,20 +55,28 @@ A premium real-time collaborative IDE where developers solve algorithmic challen
 
 ## 🎥 Demo
 
-### Landing Page
-![Landing Page](./screenshots/hero.png)
+### 🚀 Landing & Onboarding
+| Landing Page | Secure Authentication |
+| :---: | :---: |
+| ![Landing Page](./screenshots/hero.png) | ![Login](./screenshots/login.png) |
 
-### Key Features
-![Features](./screenshots/features.png)
+### 🛠️ Developer Dashboard
+| Dashboard Overview | Key Features |
+| :---: | :---: |
+| ![Dashboard](./screenshots/dashboard.png) | ![Features](./screenshots/features.png) |
 
-### Flexible Pricing
+### 💻 Collaborative Workspace
+| Real-Time Editor | Multi-Language Support |
+| :---: | :---: |
+| ![Editor](./screenshots/editor.png) | ![Languages](./screenshots/languages.png) |
+
+### 👤 Social & Community
+| User Profile | Community Integration |
+| :---: | :---: |
+| ![Profile](./screenshots/profile.png) | ![Community](./screenshots/community.png) |
+
+### 💰 Flexible Pricing
 ![Pricing](./screenshots/pricing.png)
-
-### Community Integration
-![Community](./screenshots/community.png)
-
-### Secure Authentication
-![Login](./screenshots/login.png)
 
 > **Try it live:** [http://localhost:5173](http://localhost:5173) (after installation)
 
