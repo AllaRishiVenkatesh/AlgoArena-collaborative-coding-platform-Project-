@@ -1,0 +1,105 @@
+﻿connected to database
+Server is running on port 3000
+node.exe : C:\Users\al
+lar\OneDrive\Documents
+\Projects\AlgoArena-ma
+in\backend\node_module
+s\mongodb-connection-s
+tring-url\lib\index.js
+:86
+At line:1 char:1
++ & "C:\Program Files\
+nodejs\node.exe" 
+index.js 2>&1 | 
+Out-File backend ...
++ ~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo    
+          : NotSpeci  
+  fied: (C:\Users\a   
+ llar\...lib\index    
+.js:86:String) []    
+, RemoteException
+    + FullyQualifiedE 
+   rrorId : NativeCo  
+  mmandError
+ 
+            throw new 
+MongoParseError('Inval
+id scheme, expected 
+connection string to 
+start with 
+"mongodb://" or 
+"mongodb+srv://"');
+                  ^
+
+MongoParseError: 
+Invalid scheme, 
+expected connection 
+string to start with 
+"mongodb://" or 
+"mongodb+srv://"
+    at new 
+ConnectionString (C:\U
+sers\allar\OneDrive\Do
+cuments\Projects\AlgoA
+rena-main\backend\node
+_modules\mongodb-conne
+ction-string-url\lib\i
+ndex.js:86:19)
+    at parseOptions (C
+:\Users\allar\OneDrive
+\Documents\Projects\Al
+goArena-main\backend\n
+ode_modules\mongodb\li
+b\connection_string.js
+:203:17)
+    at new 
+MongoClient (C:\Users\
+allar\OneDrive\Documen
+ts\Projects\AlgoArena-
+main\backend\node_modu
+les\mongodb\lib\mongo_
+client.js:51:61)
+    at NativeConnectio
+n.createClient (C:\Use
+rs\allar\OneDrive\Docu
+ments\Projects\AlgoAre
+na-main\backend\node_m
+odules\mongoose\lib\dr
+ivers\node-mongodb-nat
+ive\connection.js:328:
+14)
+    at NativeConnectio
+n.openUri (C:\Users\al
+lar\OneDrive\Documents
+\Projects\AlgoArena-ma
+in\backend\node_module
+s\mongoose\lib\connect
+ion.js:1069:34)
+    at 
+Mongoose.connect (C:\U
+sers\allar\OneDrive\Do
+cuments\Projects\AlgoA
+rena-main\backend\node
+_modules\mongoose\lib\
+mongoose.js:446:15)
+    at 
+Object.<anonymous> (C:
+\Users\allar\OneDrive\
+Documents\Projects\Alg
+oArena-main\backend\db
+.js:5:14)
+    at 
+Module._compile (node:
+internal/modules/cjs/l
+oader:1761:14)
+    at Object..js (nod
+e:internal/modules/cjs
+/loader:1893:10)
+    at Module.load (no
+de:internal/modules/cj
+s/loader:1481:32)
+
+Node.js v24.13.0
