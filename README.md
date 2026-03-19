@@ -2,73 +2,77 @@
 
 **Real-Time Collaborative Coding Platform**
 
-AlgoArena is a premium collaborative integrated development environment (IDE) designed for developers to solve algorithmic challenges, share coding sessions, and improve engineering skills in real-time.
+![Hero Section](./screenshots/hero.png)
 
-## Overview
+AlgoArena is a web application where developers can code together in real-time. You can solve problems, share your screen, and run your code instantly.
 
-The platform enables multiple users to join in a shared coding room and edit a code simultaneously with sub-millisecond latency. It features a built-in compiler accessing remote execution engines, facilitating instant feedback for JavaScript, Python, C++, and Java.
+## How It Looks
 
-The architecture emphasizes performance and scalability, utilizing WebSockets for state synchronization and a microservices-ready backend structure.
+### Login
+![Login Screen](./screenshots/login.png)
 
-## Key Features
+### Dashboard
+![Dashboard](./screenshots/dashboard.png)
 
-### Collaborative Engine
-*   **Real-time Synchronization**: Concurrent editing with conflict resolution.
-*   **Presence Management**: Active user tracking and status updates.
-*   **Multi-language Support**: Seamless switching between supported runtime environments.
+### Code Editor
+![Code Editor](./screenshots/editor.png)
 
-### Execution Environment
-*   **Remote Compilation**: code execution via Piston API integration.
-*   **Output Streaming**: Instant standard output and error stream capture.
-*   **Security Sandboxing**: Code runs in isolated containers.
+### Languages Supported
+![Languages](./screenshots/languages.png)
 
-### User Interface
-*   **Modern Design System**: Built with Tailwind CSS focusing on usability and aesthetics.
-*   **Interactive Visuals**: Neural graph particle system for immersive background effects.
-*   **Responsive Layout**: Optimized for desktop and high-resolution displays.
+### User Profile
+![User Profile](./screenshots/profile.png)
 
-## Technology Stack
+### Features and Community
+![Features](./screenshots/features.png)
+![Community](./screenshots/community.png)
 
-**Frontend**
-*   **Framework**: React 18
-*   **Styling**: Tailwind CSS, Framer Motion
-*   **Editor**: CodeMirror 6
-*   **State**: React Hooks, Context API
-*   **Network**: Socket.io Client, Axios
+## What You Can Do
 
-**Backend**
-*   **Runtime**: Node.js, Express.js
-*   **Database**: MongoDB, Mongoose
-*   **Real-time**: Socket.io
-*   **Auth**: JWT (JSON Web Tokens)
-*   **Validation**: Zod
+*   **Code Together**: Edit the same file with other people at the same time.
+*   **Run Code**: Compile and run your code in Python, JavaScript, C++, and Java directly in your browser.
+*   **See Who Is Online**: Know when other people join or leave your coding room.
 
-## Installation
+## What Was Used To Build It
 
-### Prerequisites
-*   Node.js (v16 or higher)
-*   MongoDB Instance (Local or Atlas)
+**Frontend (What you see)**
+*   React 18
+*   Tailwind CSS (for styling)
+*   CodeMirror (for the code editor)
+*   Socket.io Client (to connect to the server)
+
+**Backend (How it works in the background)**
+*   Node.js and Express.js
+*   MongoDB (to store data)
+*   Socket.io (to send messages in real time)
+*   Piston API (to run the code safely)
+
+## How To Run It On Your Computer
+
+### What You Need First
+*   Node.js installed
+*   MongoDB installed or an online MongoDB database
 *   Git
 
-### Setup Instructions
+### Steps
 
-1.  **Clone the Repository**
+1.  **Download the Code**
 
     ```bash
     git clone https://github.com/AllaRishiVenkatesh/Algo-Arena-collaborative-coding-platform-Project-.git
     cd Algo-Arena-collaborative-coding-platform-Project-
     ```
 
-2.  **Backend Configuration**
+2.  **Set Up the Backend (Server)**
 
-    Navigate to the backend directory and install dependencies:
+    Go to the backend folder and install what is needed:
 
     ```bash
     cd backend
     npm install
     ```
 
-    Create a `.env` file in the `backend` directory:
+    Create a file named `.env` in the `backend` folder and add these lines:
 
     ```env
     MONGODB_URL=your_mongodb_connection_string
@@ -76,63 +80,48 @@ The architecture emphasizes performance and scalability, utilizing WebSockets fo
     PORT=3000
     ```
 
-    Start the server:
+    Start up the server:
 
     ```bash
     npm start
     ```
 
-3.  **Frontend Configuration**
+3.  **Set Up the Frontend (Website)**
 
-    Open a new terminal, navigate to the frontend directory, and install dependencies:
+    Open a new terminal, go to the frontend folder, and install what is needed:
 
     ```bash
     cd frontend
     npm install
     ```
 
-    Create a `.env` file in the `frontend` directory:
+    Create a file named `.env` in the `frontend` folder and add this line:
 
     ```env
     VITE_BACKEND_URL=http://localhost:3000
     ```
 
-    Start the development server:
+    Start the website:
 
     ```bash
     npm run dev
     ```
 
-4.  **Access the Application**
+4.  **Open the Application**
 
-    Open your browser and visit: `http://localhost:5173`
+    Open your web browser and go to: `http://localhost:5173`
 
-## Usage Guide
+## How To Use It
 
-1.  **Registration**: Creating a new account serves as your persistent identity.
-2.  **Room Creation**: Generate a unique Room ID from the dashboard to initialize a new session.
-3.  **Joining**: Peers can enter the provided Room ID to join the session immediately.
-4.  **Coding**: Use the editor to write solution. Changes are broadcast to all room participants instantly.
-5.  **Execution**: Press the "Run" button to compile and execute source code against the selected language runtime.
-
-## API Documentation
-
-### Authentication Endpoints
-
-*   `POST /api/auth/signup`: Register a new user.
-*   `POST /api/auth/signin`: Authenticate existing user.
-*   `GET /api/auth/profile/:username`: Retrieve user profile data.
-
-### Room Endpoints
-
-*   `POST /api/rooms/`: Initialize a new coding room.
-*   `GET /api/rooms/:roomId`: Validate and retrieve room metadata.
-*   `GET /api/rooms/get-code/:roomId`: Fetch current editor state.
-*   `PUT /api/rooms/update-code/:roomId`: Persist editor state changes.
+1.  **Sign Up**: Create an account to save your information.
+2.  **Create a Room**: Go to the dashboard and make a new room. You will get a Room ID.
+3.  **Join a Room**: Give the Room ID to your friends so they can join you.
+4.  **Write Code**: Type your code in the editor. Everyone in the room will see it change.
+5.  **Run Code**: Click the "Run" button to see the output of your code.
 
 ## License
 
-This project is licensed under the MIT License.
+This project uses the MIT License.
 
 ## Author
 
