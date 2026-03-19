@@ -6,7 +6,7 @@ AlgoArena is a premium collaborative integrated development environment (IDE) de
 
 ## Overview
 
-The platform enables multiple users to join a shared coding room and edit code simultaneously with sub-millisecond latency. It features a built-in compiler accessing remote execution engines, facilitating instant feedback for JavaScript, Python, C++, and Java.
+The platform enables multiple users to join in a shared coding room and edit a code simultaneously with sub-millisecond latency. It features a built-in compiler accessing remote execution engines, facilitating instant feedback for JavaScript, Python, C++, and Java.
 
 The architecture emphasizes performance and scalability, utilizing WebSockets for state synchronization and a microservices-ready backend structure.
 
