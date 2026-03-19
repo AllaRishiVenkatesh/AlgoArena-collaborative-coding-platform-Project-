@@ -214,7 +214,7 @@ const HelloPage = () => {
       </div>
 
       <div className="absolute bottom-6 w-full text-center">
-        <p className="text-slate-600 text-xs font-mono uppercase tracking-widest">© 2025 Algo Arena. Crafted for Engineers.</p>
+        <p className="text-slate-600 text-xs font-mono uppercase tracking-widest">© 2026 Algo Arena. Crafted for Engineers.</p>
       </div>
 
     </div>

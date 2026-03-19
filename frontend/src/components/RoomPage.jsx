@@ -465,6 +465,10 @@ const RoomPage = () => {
               </div>
             )}
           </div>
+
+          <div className="py-2 text-center border-t border-slate-800 bg-slate-950/50">
+            <p className="text-slate-600 text-[9px] font-mono uppercase tracking-[0.2em]">© 2026 Algo Arena</p>
+          </div>
         </div>
       </main>
     </div>

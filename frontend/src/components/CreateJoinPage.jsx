@@ -227,6 +227,11 @@ const CreateJoinPage = () => {
             </div>
           </div>
         </div>
+
+        {/* Footer */}
+        <div className="mt-auto py-6 text-center border-t border-slate-800/30">
+          <p className="text-slate-600 text-xs font-mono uppercase tracking-widest">© 2026 Algo Arena. Crafted for Engineers.</p>
+        </div>
       </div>
     </div>
   );

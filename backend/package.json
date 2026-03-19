@@ -8,8 +8,8 @@
     "build": "npm install",
     "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Alla Rishi Venkatesh",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",

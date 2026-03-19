@@ -136,6 +136,10 @@ const LoginPage = () => {
         </div>
       </div>
 
+      <div className="absolute bottom-6 w-full text-center z-10">
+        <p className="text-slate-600 text-[10px] font-medium tracking-[0.2em] uppercase">© 2026 Algo Arena. Crafted for Engineers.</p>
+      </div>
+
       <ToastContainer theme="dark" />
     </div>
   );
